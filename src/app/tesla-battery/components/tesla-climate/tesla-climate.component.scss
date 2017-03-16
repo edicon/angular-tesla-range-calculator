@@ -31,15 +31,15 @@
     margin: 8px auto 0;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(assets/climate/ac-off.svg);
+    background-image: url(/assets/climate/ac-off.svg);
     .tesla-heat & {
-      background-image: url(assets/climate/heat-off.svg);
+      background-image: url(/assets/climate/heat-off.svg);
     }
     .tesla-climate__item--active & {
-      background-image: url(assets/climate/ac-on.svg);
+      background-image: url(/assets/climate/ac-on.svg);
     }
     .tesla-climate__item--active.tesla-heat & {
-      background-image: url(assets/climate/heat-on.svg);
+      background-image: url(/assets/climate/heat-on.svg);
     }
   }
   p {
